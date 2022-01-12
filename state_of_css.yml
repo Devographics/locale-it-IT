@@ -91,7 +91,7 @@ translations:
       t: Librerie che aiutano as integrare CSS dentro JavaScript.
 
     - key: sections.css_in_js_others.title # TODO
-      t: Other CSS-in-JS Libraries
+      t: Altre librerie CSS-in-JS 
 
     - key: sections.environments.title
       t: Ambienti
@@ -106,43 +106,43 @@ translations:
     - key: options.css_for_print.0
       t: Non ho (quasi) mai scritto stili per stampe
     - key: options.css_for_print.0.short # TODO
-      t: Never
+      t: Mai
 
     - key: options.css_for_print.1
       t: Ho occasionalmente scritto stili per stampe
     - key: options.css_for_print.1.short # TODO
-      t: Occasionally
+      t: Saltuariamente
 
     - key: options.css_for_print.2
       t: Scrivo stili per stampe nella maggior parte dei progetti
     - key: options.css_for_print.2.short # TODO
-      t: Often
+      t: Spesso
 
     - key: options.css_for_print.3
       t: Il mio focus principalmente su CSS per stampe
     - key: options.css_for_print.3.short # TODO
-      t: Mainly
+      t: Principalmente
 
     # CSS for email
     - key: options.css_for_email.0
       t: Non ho (quasi) mai scritto CSS per email
     - key: options.css_for_email.0.short # TODO
-      t: Never
+      t: Mai
 
     - key: options.css_for_email.1
       t: Ho occasionalmente scritto CSS per email
     - key: options.css_for_email.1.short # TODO
-      t: Occasionally
+      t: Saltuariamente
 
     - key: options.css_for_email.2
       t: Scrivo CSS per email nella maggior parte dei progetti
     - key: options.css_for_email.2.short # TODO
-      t: Often
+      t: Spesso
 
     - key: options.css_for_email.3
       t: Il mio focus principalmente su CSS per email
     - key: options.css_for_email.3.short # TODO
-      t: Mainly
+      t: Principalmente
 
     ###########################################################################
     # Features

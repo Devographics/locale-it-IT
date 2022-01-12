@@ -7,14 +7,14 @@ translations:
     - key: homepage.hand_coded
       t: Scritto a mano in Giappone.
     - key: homepage.leave_issue
-      t: Lascia una issue
+      t: Invia un feedback
     - key: homepage.get_in_touch
       t: Contattaci
 
     - key: homepage.made_by
       t: 'The State of CSS é creato da:'
     - key: homepage.leave_issue
-      t: Lascia una issue
+      t: Invia un feedback
 
     - key: homepage.previous_years
       t: 'Anni precedenti:'
@@ -27,21 +27,21 @@ translations:
           Flexbox, Grid, Multi-Colonne… Per non parlare dei nuovi paradigmi come CSS-in-JS.
 
 
-          Quindi dopi il successo del nostro sondaggio annuale "State Of JavaScript",
-          abbiamo deciso di entrare nel mondo dei fogli di stile e selettori per aiutare
-          ad identificare le ultime mode… e provare a collegare le due grandi, e sempre più distanti, parti di front-end!
+          Dopo il successo del nostro sondaggio annuale "State Of JavaScript",
+          abbiamo deciso di entrare nel mondo dei file di stile e selettori per aiutare
+          ad identificare le ultime mode… e provare a collegare le due grandi, e sempre più distanti, parti del front-end!
 
     - key: homepage.take_survey
       t: Partecipa al sondaggio
 
     - key: homepage.view_results
-      t: Vedi i risultati 2019
+      t: Vedi i risultati del 2019
 
     - key: share.help_spread
       t: Aiutaci a spargere la voce!
 
     - key: newsletter.stay_tuned
-      t: Stai sintonizzato
+      t: rimani sintonizzato
     - key: newsletter.leave_your_email
       t: Lascia la tua email e ti faremo sapere quando ci sarà il prossimo sondaggio.
 
@@ -53,4 +53,4 @@ translations:
     - key: author.raphael.bio
       t: >
           Creatore di [Sidebar](http://sidebar.io) una newsletter quotidiana e
-          [VulcanJS](http://vulcanjs.org), un framework open'source per React+GraphQL.
+          [VulcanJS](http://vulcanjs.org), un framework open source per React+GraphQL.
