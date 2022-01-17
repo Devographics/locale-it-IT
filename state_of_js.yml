@@ -7,7 +7,7 @@ translations:
 
     - key: general.survey_intro_js2019
       t: >
-          Il mondo JavaScript gioverebbe da un po' di classificazione.
+          Il mondo di JavaScript gioverebbe da un po' di classificazione.
 
 
           Dal 2016, questo sondaggio ha collezionato 
@@ -15,7 +15,7 @@ translations:
 
 
           Partecipa al sondaggio e aiutaci a scoprire quali librerie vogliono imparare gli sviluppatori,
-          quali hanno il miglior indice di soddisfazione  e molto altro ancora.
+          quali hanno il miglior indice di soddisfazione e molto altro ancora.
 
     ###########################################################################
     # Sections

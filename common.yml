@@ -9,7 +9,7 @@ translations:
       t: Perché devo creare un account?
     - key: general.create_account_reasons
       t: >
-          Ti chiediamo di crearti un account per:
+          Ti chiediamo di creare un account per:
 
           - Evitare doppie risposte
 
@@ -17,10 +17,10 @@ translations:
 
           - Salvare man mano la sessione
 
-          - Notificarti quando i risultati sono pubblicati
+          - Notificarti quando i risultati verranno pubblicati
     - key: general.survey_closed
       t: >
-          Ci spiace, il sondaggio é ora chiuso! Puoi rivedere i tuoi dati ma non sarai in grado di modificarli.
+          Ci dispiace, il sondaggio è ora chiuso! Puoi rivedere i tuoi dati ma non sarai in grado di modificarli.
     - key: general.survey_read_only
       t: >
           Stai guardando questo sondaggio in modalità sola lettura.
@@ -46,7 +46,7 @@ translations:
     - key: general.finish_survey
       t: Finisci Sondaggio »
     - key: general.survey_closed
-      t: Questo sondaggio é ora chiuso.
+      t: Questo sondaggio è ora chiuso.
     - key: general.survey_results
       t: Vedi Risultati Sondaggo »
     - key: general.surveys_available_languages
@@ -56,20 +56,20 @@ translations:
     - key: general.translators
       t: Traduttori
     - key: general.translation_help
-      t: Aiuto alla Traduzione
+      t: Aiuto per la Traduzione
 
     # footer
     - key: general.privacy_policy
       t: Politica sulla Privacy
     - key: general.leave_issue
-      t: Domande? Trovato un bug? <a href="{link}" target="_blank">Apri una issue</a>.
+      t: Domande? Trovato un bug? <a href="{link}" target="_blank">Invia un feedback </a>.
 
     # navigation
     - key: general.table_of_contents
       t: Indice
     - key: general.all_questions_optional
       t: >
-          Nota: tutte le domande sono facoltative, raggiungere il 100% del completamento non é obbligatorio.
+          Nota: tutte le domande sono facoltative, raggiungere il 100% del completamento non è obbligatorio.
     - key: general.data_is_saved
       t: I tuoi dati sono salvati quando navighi nella sezione precedente o successiva.
 
@@ -78,37 +78,36 @@ translations:
       t: Indietro
     - key: general.thanks
       t: >
-          Grazie per aver particpato al sondaggio!
+          Grazie per aver partecipato al sondaggio!
 
-          I tuoi dati sono stati salvati. Puoi rivederli or modificarli fino alla chiusura del sondaggio.
+          I tuoi dati sono stati salvati. Puoi rivederli o modificarli entro la chiusura del sondaggio.
 
-          Inoltre, puoi aiutarci spargendo la voce e condividendo quest osondaggio. Ogni piccolo aiuto conta e aiuterà i nostri dati ad essere ancora più significativi:
+          Inoltre, puoi aiutarci spargendo la voce e condividendo quest sondaggio. Ogni piccolo aiuto conta e renderà i nostri dati ancora più significativi:
     - key: thanks.learn_more_about # TODO
-      t: 'Some of the features you might want to learn more about:'
+      t: 'Alcune delle funzionalità che vorresti approfondire:'
     - key: thanks.knowledge_score # TODO
-      t: Knowledge Score
+      t: Punteggio conoscenza
     - key: thanks.score_explanation # TODO
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
+          Sei a conoscenza o hai usato <span class="score-number score-number-known">{known}</span> su
+          <span class="score-number score-number-total">{total}</span> funzionalità menzionate nel sondaggio, classificandoti nei primi <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          di tutti i partecipanti.
     - key: thanks.share_on_twitter # TODO
-      t: Share on Twitter
+      t: Condividi via Twitter
     - key: thanks.share_score_message # TODO
       t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+          Ho ottenuto un punteggio conoscenza del {score}% nel sondaggio #{hashtag} di quest'anno! Partecipa qui al sondaggio: {shareUrl}
     # share
     - key: general.share_subject
       t: >
           Sondaggio {surveyName}
     - key: general.share_text
       t: >
-          Il sondaggio {surveyName} di quest'anno é ora aperto! {link}
+          Il sondaggio {surveyName} di quest'anno è ora aperto! {link}
 
     # forms
     - key: forms.select_option # TODO
-      t: Select option
+      t: Seleziona
 
     ###########################################################################
     # Nav
@@ -136,12 +135,12 @@ translations:
     - key: sections.opinions.title
       t: Opinioni
     - key: sections.opinions.description
-      t: Cosa ne pensi dell stato di {topic}?
+      t: Cosa ne pensi dello stato di {topic}?
 
     - key: sections.other_tools.title
       t: Altri strumenti
     - key: sections.other_tools.description
-      t: Per questi strumenti e tecnoligie, spunta quelle che usi regolarmente.
+      t: Fra questi strumenti e tecnologie, spunta quelle che usi regolarmente.
 
     ###########################################################################
     # Options
@@ -151,7 +150,7 @@ translations:
     - key: options.features.never_heard
       t: 🤷 Mai sentito nominare/Non sono sicuro di cosa sia
     - key: options.features.heard
-      t: ✅ So cos'é, ma non l'ho mai usato
+      t: ✅ So cos'è, ma non l'ho mai usato
     - key: options.features.used
       t: 👍 L'ho usato
 
@@ -159,7 +158,7 @@ translations:
     - key: options.features.never_heard.label
       t: Mai sentito nominare/Non sono sicuro di cosa sia
     - key: options.features.heard.label
-      t: So cos'é, ma non l'ho mai usato
+      t: So cos'è, ma non l'ho mai usato
     - key: options.features.used.label
       t: L'ho usato
 
@@ -167,7 +166,7 @@ translations:
     - key: options.features.never_heard.short
       t: Mai sentito nominare
     - key: options.features.heard.short
-      t: So cos'é
+      t: So cos'è
     - key: options.features.used.short
       t: L'ho usato
 
@@ -362,7 +361,7 @@ translations:
     - key: options.javascript_proficiency.0
       t: Non essere in grado di scrivere in JavaScript
     - key: options.javascript_proficiency.1
-      t: Essere in grado di scrivere corte e semplici righe di JavaScript o jQuery
+      t: Essere in grado di scrivere brevi e semplici righe di JavaScript o jQuery
     - key: options.javascript_proficiency.2
       t: Lavorare su codici sorgenti front-end pre esistenti usando framework moderni (React, Vue, ecc.)
     - key: options.javascript_proficiency.3
@@ -375,13 +374,13 @@ translations:
     - key: options.css_proficiency.0
       t: Quasi nessuna conoscenza di CSS
     - key: options.css_proficiency.1
-      t: Usare framework CSS e modificare fogli di stile esistenti
+      t: Usare framework CSS e modificare file di stile esistenti
     - key: options.css_proficiency.2
       t: Conoscere le regole di specificità ed essere in grado di creare layout
     - key: options.css_proficiency.3
-      t: Avere padronanza di animationi, interazioni, transizioni, ecc.
+      t: Avere padronanza di animazioni, interazioni, transizioni, ecc.
     - key: options.css_proficiency.4
-      t: Essere in grado di scrivere fogli di stile da zero per un intero fron-end seguendo una metodologia consistente
+      t: Essere in grado di scrivere file di stile da zero per un intero fron-end seguendo una metodologia consistente
 
     # Back-end proficiency
 
@@ -411,9 +410,9 @@ translations:
     # Gender
 
     - key: options.gender.female
-      t: Femmina
+      t: Donna
     - key: options.gender.male
-      t: Maschio
+      t: Uomo
     - key: options.gender.non_binary
       t: Non-Binario/Terzo Sesso
     - key: options.gender.prefer_not_to_say
@@ -434,9 +433,9 @@ translations:
     - key: options.race_ethnicity.black_african
       t: Nero o di origini africane
     - key: options.race_ethnicity.multiracial
-      t: Multiraziale
+      t: Multirazziale
     - key: options.race_ethnicity.biracial
-      t: Biraziale
+      t: Birazziale
     - key: options.race_ethnicity.native_american_islander_australian
       t: Nativo americano, Isolano del pacifico o Indigeno australiano
 
@@ -468,11 +467,11 @@ translations:
     - key: tools.other_tools.description
       t: Altre opzioni per la presente sezione che usi e non sono menzionate nella lista qui sopra
     - key: tools.happiness
-      t: Felicità generale
+      t: Soddisfazione generale
     - key: tools.happiness.description
       t: >
-          Su una scala da uno (molto infelice) a cinque (molto felice), quanto felice sei
-          con la situazione delle cose relativa alle opzioni elencate sopra?
+          Su una scala da uno (molto insoddisfatto) a cinque (molto soddisfatto), quanto sei soddisfatto 
+          con la situazione delle tecnologie e tools relativi alle opzioni elencate sopra?
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -488,7 +487,7 @@ translations:
     - key: user_info.company_size
       t: Dimensione dell'azienda
     - key: user_info.company_size.description
-      t: Quanto grande é la tua azienda.
+      t: Quanto grande è  la tua azienda.
 
     # salary ranges
     - key: user_info.yearly_salary
@@ -507,20 +506,20 @@ translations:
     - key: user_info.javascript_proficiency
       t: Competenza in JavaScript
     - key: user_info.javascript_proficiency.description
-      t: Quanto competente sei in JavaScript?
+      t: Quanto sei competente in JavaScript?
 
     # css proficiency
 
     - key: user_info.css_proficiency
       t: Competenza in CSS
     - key: user_info.css_proficiency.description
-      t: Quanto competente sei in CSS?
+      t: Quanto sei competente in CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
       t: Competenza Back-end
     - key: user_info.backend_proficiency.description
-      t: Quanto competente sei in sviluppo back-end?
+      t: Quanto sei competente in sviluppo back-end?
 
     # gender
     - key: user_info.gender
@@ -554,7 +553,7 @@ translations:
     - key: tools_others.utilities
       t: Utilità
     - key: tools_others.utilities.description
-      t: Quale libreria di utilità usi regolarmente?
+      t: Quali librerie usi regolarmente?
     - key: tools_others.utilities.others
       t: Altre Utilità
     - key: tools_others.utilities.others.description
@@ -576,7 +575,7 @@ translations:
     - key: tools_others.build_tools.others
       t: Altri strumenti di costruzione
     - key: tools_others.build_tools.others.description
-      t: Altre risposte (rispostsa aperta).
+      t: Altre risposte (risposta aperta).
 
     - key: tools_others.non_js_languages
       t: Linguaggi Non-JavaScript
@@ -585,7 +584,7 @@ translations:
     - key: tools_others.non_js_languages.others
       t: Altri Linguaggi
     - key: tools_others.non_js_languages.others.description
-      t: Altre risposte (rispostsa aperta).
+      t: Altre risposte (risposta aperta).
 
     ###########################################################################
     # Resources
@@ -599,7 +598,7 @@ translations:
     - key: resources.blogs_news_magazines.others
       t: Altri Blog & Riviste
     - key: resources.blogs_news_magazines.others.description
-      t: Altre risposte (rispostsa aperta).
+      t: Altre risposte (risposta aperta).
 
     # sites & courses
     - key: resources.sites_courses
@@ -619,4 +618,4 @@ translations:
     - key: resources.podcasts.others
       t: Altri Podcast
     - key: resources.podcasts.others.description
-      t: Altre risposte (rispostsa aperta).
+      t: Altre risposte (risposta aperta).
