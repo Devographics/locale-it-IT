@@ -5,7 +5,7 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.survey_intro_css2020 # TODO (Outdated translation)
+    - key: general.state_of_css.intro # TODO (Outdated translation)
       t: >
           CSS si sta evolvendo veloce come non mai.
 

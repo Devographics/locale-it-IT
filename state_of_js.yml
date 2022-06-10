@@ -5,7 +5,7 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.survey_intro_js2019
+    - key: general.state_of_js.intro
       t: >
           Il mondo di JavaScript gioverebbe da un po' di classificazione.
 
