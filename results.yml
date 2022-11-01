@@ -74,14 +74,14 @@ translations:
   # Block
   ###########################################################################
 
-  - key: block.data_from ##TODO##
+  - key: block.data_from 
     t: foo
 
   ###########################################################################
   # Options
   ###########################################################################
 
-  - key: options.experience_ranking.satisfaction ##TODO##
+  - key: options.experience_ranking.satisfaction 
     t: Retention
 
   - key: options.experience_ranking.interest
@@ -102,7 +102,7 @@ translations:
   - key: options.features_mode.usage_rank
     t: Per utilizzo
 
-  - key: options.features_mode.usage_ratio_rank ## need context ##
+  - key: options.features_mode.usage_ratio_rank 
     t: Per rapporto
 
   - key: options.features_simplified.know_it
@@ -111,7 +111,7 @@ translations:
   - key: options.features_simplified.used_it
     t: L'ho usato
 
-  - key: options.features_simplified.usage_ratio ## need context ##
+  - key: options.features_simplified.usage_ratio 
     t: Rapporto
 
   - key: options.quadrant.assess
