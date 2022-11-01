@@ -1,34 +1,1189 @@
 locale: it-IT
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+ ###########################################################################
+  # General
+ ###########################################################################
 
-    ###########################################################################
-    # Features
-    ###########################################################################
+  - key: results.start
+    t: Inizio
+
+  - key: page.previous
+    t: "Indietro:"
+
+  - key: page.next
+    t: "Avanti:"
+
+  - key: general.state_of_css_link
+    t: Stato del CSS
+
+  - key: general.netlify_link
+    t: Ospitato su <a href="{link}">Netlify</a>.
+
+  - key: general.completion_percentage
+    t: "Percentuale di completamento:"
+
+  - key: sponsors.thanks
+    t: Grazie ai nostri partners per averci supportato!
+
+  - key: sponsors.learn_more
+    t: Scopri di più.
+
+  - key: tabs.all_respondents
+    t: Tutti gli intervistati
+
+  - key: tabs.main_answers
+    t: Risposte principali
+
+  - key: tabs.other_answers
+    t: Altre risposte
+
+  - key: tabs.bracket_wins
+    t: Vince
+
+  - key: tabs.bracket_matchups
+    t: Abbinamenti
+
+  - key: tabs.chart
+    t: Grafico
+
+  - key: tabs.data
+    t: Dati
+
+  - key: tabs.share
+    t: Condividere
+
+  - key: tabs.debug
+    t: Debug
+
+  - key: tabs.by_country
+    t: Per paese
+
+  - key: tabs.by_experience
+    t: Per esperienza
+
+  - key: tabs.by_degree
+    t: Per titolo di studio
+
+  - key: tabs.by_salary
+    t: Per stipendio
+
+  - key: tabs.by_gender
+    t: Per genere
+
+  ###########################################################################
+  # Block
+  ###########################################################################
+
+  - key: block.data_from ##TODO##
+    t: foo
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  - key: options.experience_ranking.satisfaction ##TODO##
+    t: Retention
+
+  - key: options.experience_ranking.interest
+    t: Interesse
+
+  - key: options.experience_ranking.usage
+    t: Utilizzo
+
+  - key: options.experience_ranking.awareness
+    t: Consapevolezza
+
+  - key: options.features_mode.grouped
+    t: Raggruppato
+
+  - key: options.features_mode.awareness_rank
+    t: Per consapevolezza
+
+  - key: options.features_mode.usage_rank
+    t: Per utilizzo
+
+  - key: options.features_mode.usage_ratio_rank ## need context ##
+    t: Per rapporto
+
+  - key: options.features_simplified.know_it
+    t: Ne ho sentito parlare
+
+  - key: options.features_simplified.used_it
+    t: L'ho usato
+
+  - key: options.features_simplified.usage_ratio ## need context ##
+    t: Rapporto
+
+  - key: options.quadrant.assess
+    t: VALUTAZIONE
+
+  - key: options.quadrant.assess.long
+    t: |
+      VALUTAZIONE: Basso utilizzo, alta soddisfazione. Tecnologie da tenere d'occhio.
+
+  - key: options.quadrant.adopt
+    t: ADOTTA
+
+  - key: options.quadrant.adopt.long
+    t: |
+      ADOTTA: Alto utilizzo, alta soddisfazione. Tecnologie sicure da adottare.
+
+  - key: options.quadrant.avoid
+    t: EVITARE
+
+  - key: options.quadrant.avoid.long
+    t: |
+      EVITARE: Basso utilizzo, bassa soddisfazione. Le tecnologie che probabilmente è meglio evitare attualmente.
+
+  - key: options.quadrant.analyze
+    t: ANALIZZA
+
+  - key: options.quadrant.analyze.long
+    t: |
+      ANALIZZA: Alto utilizzo, bassa soddisfazione.Rivaluta queste tecnologie se le stai attualmente utilizzando.
+
+  - key: options.quadrant.1
+    t: 1
+
+  - key: options.quadrant.1.long
+    t: |
+      1: Basso utilizzo, alta soddisfazione. Tecnologie da tenere d'occhio.
+
+  - key: options.quadrant.2
+    t: 2
+
+  - key: options.quadrant.2.long
+    t: |
+      2: Alto utilizzo, alta soddisfazione. Tecnologie sicure da adottare.
+
+  - key: options.quadrant.3
+    t: 3
+
+  - key: options.quadrant.3.long
+    t: |
+      3: Basso utilizzo, bassa soddisfazione. Tecnologie più difficili da consigliare.
+
+  - key: options.quadrant.4
+    t: 4
+
+  - key: options.quadrant.4.long
+    t: |
+      4: Alto utilizzo, bassa soddisfazione.Rivaluta queste tecnologie se le stai attualmente utilizzando.
+      
+  - key: ranges.selector.years_of_experience
+    t: Esperienza
+
+  - key: ranges.selector.yearly_salary
+    t: Stipendio
+
+  - key: ranges.selector.company_size
+    t: Dimensione aziendale
+
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: Blogs
+
+  - key: options.first_steps.forums
+    t: Forums
+
+  - key: options.first_steps.view_source
+    t: Vedi la fonte
+  
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: ADHD
+
+  - key: options.disability_status_others.autism
+    t: Autismo
+
+  - key: options.disability_status_others.glasses
+    t: Occhiali
+
+  - key: options.disability_status_others.old
+    t: Vecchiaia
+
+  - key: options.disability_status_others.back_pain
+    t: Mal di schiena
+
+  - key: options.disability_status_others.epilepsy
+    t: Epilessia
+
+  - key: options.disability_status_others.aspergers
+    t: Sindrome di Asperger
+
+  - key: options.disability_status_others.color_blindness
+    t: Daltonismo
+
+  - key: options.disability_status_others.anxiety
+    t: Ansia
+
+  - key: options.disability_status_others.dyslexia
+    t: Dislessia
+
+  - key: options.disability_status_others.diabetes
+    t: Diabete
+
+  - key: options.disability_status_others.carpal_tunnel
+    t: Tunnel carpale
+    
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.introduction.title
+    t: Introduzione
+
+  - key: sections.demographics.title
+    t: Dati demografici
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.technologies.title
+    t: Tecnologie
+
+  - key: sections.libraries.title
+    t: Librerie
+
+  - key: sections.conclusion.title
+    t: Conclusioni
+
+  - key: sections.about.title
+    t: A proposito
+
+  - key: sections.how_to_help.title
+    t: Come aiutare
+
+  - key: sections.support.title
+    t: Suportarci
+
+  - key: sections.support.description
+    t: >
+      Eseguiamo questo sondaggio come un progetto collaterale, ma per rendere
+      il progetto sostenibile siamo sempre alla ricerca di partner che possano aiutarci a sostenerci,
+      sia finanziariamente o aiutandoci a spargere la voce.
+      Se pensi di proter aiutare in qualche modo, non esitare a [metterti in contatto](mailto:hello@stateofjs.com)!
+  
+  - key: sections.awards.title
+    t: Premi
+  
+  - key: sections.awards.description
+    t: Cose che si sono distinte quest'anno.
+
+  ###########################################################################
+  # User Info
+  ###########################################################################
+
+  - key: user_info.locale
+    t: Lingua
+
+  - key: user_info.locale.description
+    t: Quale lingua hanno selezionato gli intervistati per compilare il sondaggio?
+
+  - key: user_info.locale.note
+    t: >
+      Questi dati vengono raccolti automaticamente in base alle impostazioni dei partecipanti durante il sondaggio;
+      Le lingue con meno di 20 partecipanti non sono mostrate. 
+
+  - key: user_info.source
+    t: Fonte
+
+  - key: user_info.source.description
+    t: In che modo i partecipanti sono venuti a conoscenza del sondaggio?
+
+  - key: user_info.source.note
+    t: L'origine del partecipante viene calcolata in base ai dati del referrer, ai dati di monitoraggio degli URL, e dalle risposte autodichiarate.
+
+  - key: user_info.gender_by_country
+    t: Genere per paese
+
+  - key: user_info.gender_by_country.description
+    t: Distribuzione per genere e per paese con almeno 100 partecipanti, ordinati per "genere medio" (a ciascuna chiave di genere viene assegnato un valore intero in ordine crescente) decrescente.
+
+  - key: user_info.years_of_experience_by_salary
+    t: Anni di esperienza per fascia di stipendio.
+
+  - key: user_info.years_of_experience_by_salary.description
+    t: Anni di esperienza per fascia di stipendio.
+
+  - key: user_info.yearly_salary_by_country
+    t: Stipendio per paese
+
+  - key: user_info.yearly_salary_by_country.description
+    t: Distribuzione salariale annuale per paese con almeno 100 partecipanti, ordinati per salario medio decrescente.
+
+  - key: user_info.yearly_salary_by_degree
+    t: Salario per titolo di studio superiore
+
+  - key: user_info.yearly_salary_by_degree.description
+    t: Distribuzione salariale annuale per titolo di studio superiore, ordinata per stipendio medio decrescente.
+
+  - key: user_info.yearly_salary_by_experience
+    t: Stipendio per esperienza
+
+  - key: user_info.yearly_salary_by_experience.description
+    t: Distribuzione salariale annuale per esperienza, ordinata per salario medio decrescente.
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Razza ed etnia per anni di esperienza
+
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Distribuzione di razza ed etnia per anni di esperienza, ordinata per esperienza media ascendente.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Titolo di studio superiore per genere
+
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Distribuzione dei titoli di studio superiori per genere.
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: Inglese
+  - key: options.locale.ca-ES
+    t: Catalano
+  - key: options.locale.es-ES
+    t: Spagnolo
+  - key: options.locale.ru-RU
+    t: Russo
+  - key: options.locale.fr-FR
+    t: Francese
+  - key: options.locale.zh-Hant
+    t: Cinese (Tradizionale)
+  - key: options.locale.de-DE
+    t: Tedesco
+  - key: options.locale.cs-CZ
+    t: Ceco
+  - key: options.locale.pt-PT
+    t: Portoghese
+  - key: options.locale.pt-BR
+    t: Portoghese (Brasiliano)
+  - key: options.locale.it-IT
+    t: Italiano
+  - key: options.locale.sv-SE
+    t: Svedese
+  - key: options.locale.tr-TR
+    t: Turco
+  - key: options.locale.id-ID
+    t: Indonesiano
+  - key: options.locale.hi-IN
+    t: Hindi
+  - key: options.locale.zh-Hans
+    t: Cinese (Semplificato)
+  - key: options.locale.ja-JP
+    t: Giapponese
+  - key: options.locale.ua-UA
+    t: Ukrainian
+  - key: options.locale.pl-PL
+    t: Polacco
+  - key: options.locale.fa-IR
+    t: Farsi
+  - key: options.locale.nl-NL
+    t: Olandese
+  - key: options.locale.ko-KR
+    t: Coreano
+  - key: options.locale.ro-RO
+    t: Rumeno
+
+  ###########################################################################
+  # Features
+  ###########################################################################
 
     - key: features.learn_more
       t: Saperne di più (MDN)
+
     - key: features.mdn_link
       t: MDN
+
     - key: features.caniuse_link
       t: CanIUse
+
     - key: features.specification_link
       t: Specifiche W3C
 
-    ###########################################################################
-    # Tools & Methodologies
-    ###########################################################################
+  # knowledge score
+  - key: features.knowledge_score
+    t: Punteggio di conoscenza
+
+  - key: features.knowledge_score.description
+    t: Di tutte le caratteristiche menzionate nel sondaggio, quante ne conosceva il partecipante?
+
+  ###########################################################################
+  # Tools & Methodologies
+  ###########################################################################
 
     # general
     - key: tools.links
-      t: Links
+      t: Collegamenti
+
     - key: tools.github_link
       t: GitHub
+
     - key: tools.github_stars
-      t: stelle
+      t: Stelle
+
     - key: tools.homepage_link
       t: Homepage
+
     - key: tools.npm_link
       t: NPM
+
+  - key: tools.technology
+    t: Tecnologia
+
+  ###########################################################################
+  # Blocks
+  ###########################################################################
+
+  # heatmaps
+  - key: blocks.tools_company_size_heatmap
+    t: Uso per dimensione azienda
+
+  - key: blocks.tools_company_size_heatmap.description
+    t: |
+      Per ciascuna tecnologia, come viene distribuito l'utilizzo tra i partecipanti
+      che hanno scelto diverse gamme di dimensioni aziendali.
+
+  - key: blocks.tools_yearly_salary_heatmap
+    t: Uso per fascia di stipendio
+
+  - key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      Per ciascuna tecnologia, come viene distribuito l'utilizzo tra i partecipanti
+      che hanno scelto diverse fasce di stipendio.
+
+  - key: blocks.tools_years_of_experience_heatmap
+    t: Uso per anni di esperienza
+
+  - key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      Per ciascuna tecnologia, il modo in cui l'utilizzo viene distribuito tra i partecipanti che hanno scelto intervalli di esperienza diversi.
+      Si noti che l'esperienza in questione qui è un'esperienza generale, non un'esperienza con una tecnologia specifica.
+
+  # tool
+  - key: blocks.entity.homepage_link
+    t: Homepage
+
+  - key: blocks.entity.github_link
+    t: GitHub
+
+  # cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user
+    t: Cardinalità di utilizzo della tecnologia
+
+  - key: blocks.all_sections_tools_cardinality_by_user.description
+    t: >
+        Per ciascuna sezione, quale percentuale di partecipanti **utilizza**
+        (definito come aver risposto “utilizzerei ancora”) una, due, tre, ecc. tecnologie.
+        La barra più in basso rappresenta la somma di tutte le altre barre.
+
+  - key: blocks.cardinality.max
+    t: Risposta più comune
+
+  # tools arrows
+  - key: blocks.tools_arrows
+    t: Cambiamenti nel tempo
+
+  - key: blocks.tools_arrows.description
+    t: |
+      Ogni riga va dal 2016 al 2020. Un punto più alto significa che una tecnologia è stata utilizzata da più persone,
+      e un punto più a destra significa che più utenti vogliono impararlo; o l'hanno usata e l'userebbero di nuovo.
+
+  - key: blocks.tools_arrows.note
+    t: |
+      - Alcune righe saltano anni.
+      - Non vengono mostrate le tecnologie con un solo anno di dati.
+      - Formula velocità = (opinione più recente - opinione più vecchia) + (utilizzo più recente) - (utilizzo più vecchio)
+      - Una velocità positiva significa che l'utilizzo e/o le opinioni positive sono aumentate nel tempo.
+
+  # tools quadrant
+  - key: blocks.tools_quadrant
+    t: Conservazione vs utilizzo
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      Questo grafico mostra il **rapporto di fidelizzazione** di ciascuna tecnologia rispetto al **conteggio di utenti** totale.
+      Può essere suddiviso in quattro quadranti:
+        - **VALUTAZIONE**: basso utilizzo, alta ritenzione. Tecnologie da tenere d'occhio.
+        - **ADOTTA**: utilizzo elevato, ritenzione elevata. Tecnologie sicure da adottare.
+        - **EVITARE**: basso utilizzo, bassa ritenzione. Tecnologie che probabilmente è meglio evitare attualmente.
+        - **ANALISI**: utilizzo elevato, bassa ritenzione. Rivaluta queste tecnologie se le stai attualmente utilizzando.
+
+  # category other tools
+  - key: blocks.category_other_tools
+    t: Altri strumenti
+
+  - key: blocks.category_other_tools.description
+    t: Altri strumenti in questa categoria (risposte a mano libera).
+
+  # tool experience
+  - key: blocks.tool_experience
+    t: "{name} Esperienza"
+
+  - key: blocks.tool_experience.description
+    t: L'esperienza del partecipante con {name}.
+
+  # tool positive/negative split ("marimekko" chart)
+  - key: blocks.tools_experience_marimekko
+    t: Divisione positiva/negativa
+
+  - key: blocks.tools_experience_marimekko.description
+    t: |
+      Questo grafico si divide in positivo ("voglio imparare", "lo userei di nuovo") e
+      esperienze negative ("non interessato", "non userei più") su
+      entrambi i lati di un asse centrale.
+      Lo spessore della barra rappresenta il numero di partecipanti a conoscenza di una tecnologia.
+
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Elenco dei livelli della libreria
+
+  - key: blocks.tools_tier_list.description
+    t: |
+      Questo grafico classifica le librerie in base al loro rapporto di conservazione (percentuale di utenti
+      chi userebbe di nuovo una libreria). Si noti che le librerie utilizzate da meno del 10% 
+      dei partecipanti al sondaggio non sono inclusi.
+
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+      
+  # tools section streams
+  - key: blocks.tools_section_streams
+    t: Esperienza nel tempo
+
+  - key: blocks.tools_section_streams.description
+    t: |
+      Panoramica delle opinioni sulle tecnologie censite nel tempo.
+
+  - key: blocks.tools_section_streams.note
+    t: |
+      Non sono incluse le tecnologie con un solo anno di dati.
+
+  # tools section overview
+  - key: blocks.tools_section_overview
+    t: Panoramica della categoria
+
+  - key: blocks.tools_section_overview.description
+    t: |
+      Panoramica delle opinioni sulle tecnologie esaminate. I segmenti più scuri rappresentano opinioni positive,
+      mentre i segmenti più leggeri corrispondono al sentimento negativo.
+
+  # tools experience ranking
+  - key: blocks.tools_experience_ranking
+    t: Classifiche
+
+  - key: blocks.tools_experience_ranking.description
+    t: Graduatorie di fidelizzazione, interesse, utilizzo e consapevolezza.
+
+  - key: blocks.tools_experience_ranking.note
+    t: |
+      Tecnologie con consapevolezza inferiore al 10% non incluse. Ciascun rapporto è definito come segue:
+       - Conservazione: **usare nuovamente** / (**utilizzare nuovamente** + **non utilizzare nuovamente**)
+       - Interesse: **voglio imparare** / (**voglio imparare** + **non interessato**)
+       - Utilizzo: (**riutilizzerei** + **non riutilizzerei**) / **totale**
+       - Consapevolezza: (**totale** - **mai sentito**) / **totale**
+
+  # happiness
+  - key: blocks.happiness
+    t: Felicità generale
+
+  - key: blocks.happiness.description
+    t: |
+      Su una scala da uno (molto infelice) a cinque (molto felice), quanto sono felici gli sviluppatori
+      con lo stato generale attuale di questa categoria?
+
+  # newsletter
+  - key: blocks.newsletter.title
+    t: Restate con noi
+
+  - key: blocks.newsletter.description
+    t: |
+      Se desideri sapere quando pubblicheremo ulteriori risultati o annunceremo l'edizione del prossimo anno,
+      lasciaci la tua email qui sotto:
+
+  - key: blocks.newsletter.email
+    t: La tua email
+
+  - key: blocks.newsletter.submit
+    t: Avvisami
+
+  # features_overview
+  - key: blocks.features_overview
+    t: Panoramica delle caratteristiche
+
+  - key: blocks.features_overview.description
+    t: |
+      La dimensione del **cerchio esterno** corrisponde al numero totale di utenti che conoscono una funzione (*la conoscono* + *l'hanno usata* i partecipanti), mentre
+      il **cerchio interno** rappresenta coloro che l'hanno effettivamente utilizzato (*l'hanno utilizzato* i partecipanti).
+      Passa il mouse su ciascun cerchio per vedere le statistiche dettagliate, incluso il rapporto tra i due valori.
+
+  # export
+  - key: export.export
+    t: Esportare
+
+  - key: export.title
+    t: Esporta dati per {title}
+
+  - key: export.nocsv
+    t: Spiacente, l'esportazione CSV non è disponibile per questo set di dati.
+
+  - key: export.graphql
+    t: >
+      Puoi copiare e incollare questa query nella nostra <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API pubblica GraphQL</a>.
+
+  - key: export.export_json
+    t: Ottieni dati JSON
+
+  - key: export.export_graphql
+    t: Ottieni Query GraphQL 
+
+  - key: custom_data.heading
+    t: Grafico personalizzato
+
+  - key: custom_data.custom_data
+    t: Dati personalizzati
+
+  - key: custom_data.graphql_query
+    t: Query GraphQL
+
+  - key: custom_data.chart_title
+    t: Grafico personalizzato
+
+  - key: custom_data.submit
+    t: Invia
+
+  - key: custom_data.empty_contents
+    t: Si prega di inserire alcuni dati nel campo "Dati personalizzati".
+
+  - key: custom_data.edit_title
+    t: Modifica il titolo del grafico
+
+  - key: custom_data.customize
+    t: Personalizza i dati
+
+  - key: custom_data.details
+    t: >
+        1. Copiare il contenuto del campo di testo "Query GraphQL" e incollarlo nel pannello centrale di [GraphQL API explorer](https://graphiql.stateofjs.com/).
+        2. Modifica la query aggiungendo uno o più **filtri** utilizzando la barra laterale di sinistra di Explorer. Assicurati di mantenere la stessa struttura generale dei dati.
+        3. Nella finestra di esplorazione, fare clic sul pulsante Riproduci ("Esegui query").
+        4. Copia i risultati della query modificata (`{ data: … }` ) nel campo di testo "Dati personalizzati" sopra e invia.
+
+  # Tools usage variations
+  - key: blocks.tools_usage_variations
+    t: Variazioni di utilizzo
+
+  - key: blocks.tools_usage_variations.description
+    t: |
+      Come diversi fattori come fascia di stipendio, anni di esperienza
+      o le dimensioni dell'azienda influenzano l'utilizzo (sia i partecipanti che hanno risposto
+      "lo userei di nuovo" o "non lo userei di nuovo").
+      La linea di base rappresenta l'utilizzo di base per ogni utensile e gli offset
+      corrispondono al delta da questa linea di base in ciascun intervallo. Diciamo
+      lo strumento X ha un utilizzo complessivo del 10% tra tutti i partecipanti (la linea di base),
+      poi se la percentuale di utenti che hanno da 1 a 2 anni di esperienza
+      l'utilizzo di questo strumento è del 13% (rispetto a tutti gli utenti che hanno da 1 a 2 anni
+      di esperienza), allora abbiamo un delta positivo del +3%.
+
+  - key: blocks.tools_usage_variations.note
+    t: |
+      Tieni presente che gli strumenti con un utilizzo complessivo inferiore tendono a variare di più.
+
+  # Recommended Resources
+  - key: blocks.recommended_resources
+    t: Risorse consigliate
+
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: Graduatorie di valutazione delle librerie
+
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: A quali fattori dai la priorità quando valuti una nuova libreria? I risultati sono classificati in base al numero di round del torneo vinti.
+
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Graduatorie di valutazione delle librerie (Abbinamenti)
+
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: A quali fattori dai la priorità quando valuti una nuova libreria? Percentuale di round vinti dall'oggetto di sinistra rispetto all'oggetto del lato superiore.
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: chart_units.respondents
+    t: "{count} partecipanti ({percentage}% percentuale di completamento)"
+
+  - key: chart_units.percentage
+    t: Percentuali
+
+  - key: chart_units.count
+    t: Contare
+
+  - key: chart_units.percentage_question
+    t: "% dei partecipanti"
+
+  - key: chart_units.percentage_survey
+    t: "% dei partecipanti"
+
+  - key: charts.average
+    t: Media
+
+  - key: charts.mean
+    t: Significato
+
+  - key: charts.overall
+    t: Overall
+
+  - key: charts.all_respondents
+    t: Tutti i partecipanti
+
+  - key: charts.facet_responses
+    t: '{count} risposte'
+
+  - key: charts.axis_legends.years_of_experience
+    t: Anni di esperienza
+
+  - key: charts.axis_legends.yearly_salary
+    t: Fascia di salario (USD)
+
+  - key: charts.axis_legends.company_size
+    t: Numero di dipendenti
+
+  - key: charts.axis_legends.backend_proficiency
+    t: Competenza Back-end 
+
+  - key: charts.axis_legends.css_proficiency
+    t: Competenza CSS
+
+  - key: charts.axis_legends.javascript_proficiency
+    t: Competenza JavaScript
+
+  - key: charts.axis_legends.users_percentage
+    t: Percentuale di utenti
+
+  - key: charts.axis_legends.users_count
+    t: Conteggio utenti
+
+  - key: charts.axis_legends.interest_percentage
+    t: Interesse %
+
+  - key: charts.axis_legends.satisfaction_percentage
+    t: Ritenzione %
+
+  - key: charts.axis_legends.usage_percentage
+    t: Utilizzo %
+
+  - key: charts.axis_legends.awareness_percentage
+    t: Consapevolezza %
+
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+    
+  - key: charts.axis_legends.happiness
+    t: Felicità
+
+  - key: charts.axis_legends.knowledge_score
+    t: Caratteristiche conosciute
+
+  - key: charts.axis_legends.frequency
+    t: Frequenza
+
+  - key: charts.axis_legends.age
+    t: Età
+
+  - key: charts.axis_legends.users_percentage_survey
+    t: "% di partecipanti"
+
+  - key: charts.axis_legends.users_percentage_question
+    t: "% di partecipanti"
+
+  - key: charts.ranges_multiple_diverging_lines.baseline
+    t: linea di riferimento
+
+  - key: charts.ranges_multiple_diverging_lines.positive_offset
+    t: offset positivo
+
+  - key: charts.ranges_multiple_diverging_lines.negative_offset
+    t: offset negativo
+
+  - key: charts.tools_arrows.negative_opinion
+    t: Opinioni negative
+
+  - key: charts.tools_arrows.positive_opinion
+    t: Opinioni positive
+
+  - key: charts.tools_arrows.have_not_used
+    t: Non ho usato
+
+  - key: charts.tools_arrows.have_used
+    t: Ho usato
+
+  - key: charts.tools_arrows.x_axis
+    t: serie asse X 
+
+  - key: charts.tools_arrows.y_axis
+    t: serie asse Y
+
+  - key: charts.tools_arrows.legend
+    t: Leggenda
+
+  - key: charts.tools_arrows.velocity
+    t: Velocità
+
+  - key: charts.tools_arrows.velocity_positive
+    t: Opinioni complessivamente più positive e/o utilizzo nel tempo
+
+  - key: charts.tools_arrows.velocity_negative
+    t: Opinioni nel complesso più negative e/o minor utilizzo nel tempo
+
+  - key: charts.tools_arrows.opinions_positive
+    t: Pareri perlopiù positivi
+
+  - key: charts.tools_arrows.opinions_negative
+    t: Pareri perlopiù negativi
+
+  - key: charts.tools_arrows.low_usage
+    t: Basso utilizzo
+
+  - key: charts.tools_arrows.high_usage
+    t: Utilizzo elevato
+
+  - key: charts.tools_arrows.popularity_positive
+    t: Crescente popolarità
+
+  - key: charts.tools_arrows.popularity_negative
+    t: Popolarità in calo
+
+  - key: charts.no_answer
+    t: Nessuna risposta
+
+  ###########################################################################
+  # Sharing
+  ###########################################################################
+
+  - key: share.share
+    t: Condividi
+  - key: share.options
+    t: Opzioni di condivisione
+  - key: share.preview
+    t: Anteprima sui social
+  - key: share.site.title
+    t: Scopri i {siteTitle} risultati
+  - key: share.site.twitter_text
+    t: "Scopri i {siteTitle} risultati {link} {hashtag}"
+  - key: share.site.subject
+    t: "{siteTitle} Risultati del sondaggio"
+  - key: share.site.body
+    t: "Ecco alcuni risultati interessanti del sondaggio: {link}"
+  - key: share.block.twitter_text
+    t: "{hashtag} {year}: {title} {link}"
+  - key: share.block.subject
+    t: "{siteTitle} Risultati del sondaggio"
+  - key: share.block.body
+    t: "Ecco alcuni risultati interessanti del sondaggio ({title}): {link}"
+  - key: share.twitter
+    t: Condividi su Twitter
+  - key: share.facebook
+    t: Condividi su Facebook
+  - key: share.linkedin
+    t: Condividi su LinkedIn
+  - key: share.email
+    t: Condividi via email
+  - key: share.image
+    t: Ottieni immagine
+  - key: share.link
+    t: Link alla sezione
+  - key: share.url
+    t: Ottieni collegamento
+
+  - key: share.close
+    t: Chiudi
+
+  ###########################################################################
+  # Views
+  ###########################################################################
+  - key: views.viz
+    t: Grafico
+
+  - key: views.table
+    t: Tabella
+
+  ###########################################################################
+  # Tables
+  ###########################################################################
+  - key: table.label
+    t: Etichetta
+  - key: table.item
+    t: Elemento
+  - key: table.percentage_survey
+    t: "% dei partecipanti"
+  - key: table.percentage_question
+    t: "% dei partecipanti"
+  - key: table.percentage_facet
+    t: "% dei partecipanti"
+  - key: table.count
+    t: Contata
+  - key: table.year
+    t: Anno
+  - key: table.mean
+    t: Significato
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+
+  - key: table.percentages_table
+    t: Percentuali
+  - key: table.rankings_table
+    t: Classifiche
+
+  - key: table.satisfaction_rank
+    t: Grado di conservazione
+  - key: table.interest_rank
+    t: Grado di interesse
+  - key: table.usage_rank
+    t: Grado di utilizzo
+  - key: table.awareness_rank
+    t: Grado di consapevolezza
+
+  - key: table.would_not_use_percentage
+    t: Non userei %
+  - key: table.not_interested_percentage
+    t: Non interesato %
+  - key: table.would_use_percentage
+    t: Lo userei di nuovo %
+  - key: table.interested_percentage
+    t: Interessato %
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: awards.runner_ups
+    t: Secondo classificato
+
+  - key: award.feature_adoption_award.title
+    t: Caratteristica più utilizzata
+
+  - key: award.feature_adoption_award.description
+    t: Assegnato alla caratteristica più adottata.
+
+  - key: award.feature_adoption_delta_award.title
+    t: Caratteristica più adottata
+
+  - key: award.feature_adoption_delta_award.description
+    t: Assegnato alla funzione con la più grande progressione anno dopo anno "hanno utilizzato".
+
+  - key: award.tool_usage_award.title
+    t: Tecnologia più utilizzata
+
+  - key: award.tool_usage_award.description
+    t: Assegnato alla tecnologia con la più ampia base di utenti.
+
+  - key: award.tool_usage_delta_award.title
+    t: La tecnologia più adottata
+
+  - key: award.tool_usage_delta_award.description
+    t: Assegnato alla tecnologia con la più grande progressione anno dopo anno "vorrei usare di nuovo".
+
+  - key: award.tool_satisfaction_award.title
+    t: Ritenzione massima
+
+  - key: award.tool_satisfaction_award.description
+    t: Assegnato alla tecnologia con la più alta percentuale di utenti di ritorno.
+
+  - key: award.tool_interest_award.title
+    t: Interesse massimo
+
+  - key: award.tool_interest_award.description
+    t: Assegnato agli sviluppatori di tecnologia che sono più interessati all'apprendimento una volta che ne sono consapevoli.
+
+  - key: award.resource_usage_award.title
+    t: Risorsa più utilizzata
+
+  - key: award.resource_usage_award.description
+    t: Assegnato alla risorsa con la più ampia base di utenti.
+
+  - key: award.prediction_award.title
+    t: Premio pronostico
+
+  - key: award.prediction_award.description
+    t: Assegnato a una tecnologia emergente che potrebbe prendere il sopravvento... o no?
+
+  - key: award.most_write_ins_award.title
+    t: La maggior parte delle scritture
+
+  - key: award.most_write_ins_award.description
+    t: Assegnato all'elemento con il maggior numero di risposte scritte
+
+  ###########################################################################
+  # Hints
+  ###########################################################################
+
+  - key: hints.hint_hint
+    t: >
+      Troverai piccoli suggerimenti come questo nei risultati del sondaggio
+      che indicherà caratteristiche e dettagli extra.
+
+  - key: hints.units_switcher_hint
+    t: >
+      Puoi usare il controllo segmentato nella parte inferiore di ogni blocco per cambiare
+      tra diverse unità per ottenere una visualizzazione alternativa degli stessi dati.
+
+  - key: hints.export_hint
+    t: >
+      La scheda <span class="hint-icon hint-export-button">Dati</span> ti consente di visualizzare i dati non elaborati
+      dati per qualsiasi grafico, visualizzalo come JSON o ottiere una query GraphQL che si puo
+      eseguire con la nostra API pubblica.
+
+  - key: hints.completion_hint
+    t: >
+      Poiché tutte le domande sono facoltative, alcune di esse hanno ricevuto meno risposte di altre.
+      L'indicatore di completamento (<span class="hint-completion-indicator">◕</span>) indica esattamente quante persone hanno risposto a una determinata domanda.
+
+  - key: hints.tool_modal_hint
+    t: >
+      È possibile fare clic su qualsiasi nome di tecnologia per ottenere ulteriori dettagli e
+      uno sguardo più approfondito ai relativi dati.
+
+  - key: hints.rankings_modes_hint
+    t: >
+      Il grafico delle classifiche può essere alternato tra fidelizzazione, interesse, utilizzo e consapevolezza
+      per darti un quadro più completo delle classifiche di una categoria.
+
+  - key: hints.sharing_hint
+    t: >
+      La condivisione di questo sondaggio su Twitter, Facebook o tramite e-mail è scientificamente provata
+      e migliora le tue prestazioni di programmazione fino al 15%.
+
+  - key: hints.tshirt_hint
+    t: >
+      Un'altra scoperta scientifica garantita: l'acquisto della nostra t-shirt lo farà
+      aumenta le tue capacità di programmazione di oltre 9000!
+
+  - key: hints.variants_hint
+    t: >
+      Alcuni grafici presentano schede aggiuntive che offrono scomposizioni complementari degli stessi dati,
+      o dati correlati. Assicurati di controllarli!
+
+  - key: hints.share_hint
+    t: >
+      La scheda <span class="hint-icon hint-share-button">Condividi</span> semplifica la condivisione di qualsiasi grafico,
+      o anche scaricarlo come immagine.
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">Il seguente grafico fornisce i risultati di un girone a 8 giocatori in stile torneo in cui
+      ai partecipanti è stato assegnato il compito di scegliere il vincitore di ogni incontro fino a quando non è rimasto un unico vincitore.</span><span class="hint-diagram"/></span>
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Thanks
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Grazie per aver supportato il sondaggio. Il tuo avatar dovrebbe apparire accanto al grafico che hai scelto
+      entro la prossima ora o giù di lì. In caso contrario, [contattaci](mailto:chartsponsor@stateofjs.com).
+    
+  - key: sponsor.sponsored_by
+    t: >
+        **{name}** donato **${amount}** per sponsorizzare questo grafico
+
+  - key: sponsor.sponsor_button
+    t: Sponsorizza questo grafico
+
+  - key: sponsor.sponsor_chart.title
+    t: Grafico degli sponsor "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+        Sostieni questo sondaggio finanziariamente donando $ 10 o più e ottieni il tuo
+        avatar di Twitter in primo piano accanto a un grafico!
+
+  - key: sponsor.chart_id
+    t: 'Grafico ID: '
+
+  - key: sponsor.sponsor_this_chart
+    t: Sponsor This Chart (${baseAmount}+) 
+
+  - key: sponsor.how_it_works.title
+    t: How It Works
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. Quando **fai clic sul pulsante "Sponsorizza questo grafico"**, verrai reindirizzato alla pagina di pagamento del nostro partner [SendOwl](https://www.sendowl.com/).
+           
+      2. Puoi quindi **modificare l'importo** per cui desideri sponsorizzare il sondaggio, a partire da 10 USD.
+            
+      3. Una volta effettuato il checkout, sarai in grado di **fornire il tuo nome utente Twitter**.
+            
+      4. Vedrai una pagina **Download del file**, ma puoi tranquillamente ignorarla.
+            
+      5. Il sito verrà ricostruito in background e il tuo nome utente e la tua donazione **appariranno accanto al grafico entro l'ora successiva**.
+
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.usage.title
+    t: A cosa servirà la mia donazione?
+
+  - key: sponsor.faq.usage.description
+    t: La tua donazione aiuterà a supportare i gestori dei sondaggi, oltre ad aiutare ad assumere più contributori (illustratori, esperti di accessibilità e diversità, ecc.).
+
+  - key: sponsor.faq.public.title
+    t: La mia donazione sarà pubblica?
+
+  - key: sponsor.faq.public.description
+    t: Si. Il tuo **username Twitter** e **l'importo che hai donato** verranno visualizzati pubblicamente accanto al grafico.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Posso donare per conto di qualcun altro?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: Puoi inserire un nome utente Twitter diverso dal tuo, ma quella persona avrà il diritto di rimuovere la donazione se lo richiede.
+
+  - key: sponsor.faq.refund.title
+    t: Qual è la politica di rimborso?
+
+  - key: sponsor.faq.refund.description
+    t: Tutte le donazioni sono rimborsabili entro un periodo di 1 settimana, meno le spese di transazione.
+
+  - key: sponsor.faq.influence.title
+    t: Le donazioni influenzano i contenuti del sondaggio?
+
+  - key: sponsor.faq.influence.description
+    t: Le donazioni avvengono una volta che il sondaggio è già pubblicato e i donatori non hanno alcuna influenza sui contenuti del sondaggio.
+
+  - key: sponsor.faq.feedback.title
+    t: Dove posso lasciare un feedback/fare domande?
+
+  - key: sponsor.faq.feedback.description
+    t: Puoi farlo [su GitHub](https://github.com/StateOfJS/Monorepo/issues/69) o [nel nostro Discord](https://discord.gg/tuWRUWVyJs).
