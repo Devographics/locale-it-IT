@@ -1,0 +1,12 @@
+locale: it-IT
+translations:
+
+    - key: general.css2022.results_intro
+      t: |
+          Il CSS continua a progredire ad un ritmo senza precedenti. Non solo stiamo vedendo nuove funzionalità e proprietà, ma persino le basi dei linguaggi vengono riorganizzate e migliorate grazie a innovazioni come il nesting e i livelli a cascata.
+
+          Fortunatamente quest'anno abbiamo ricevuto l'aiuto di qualcuno in prima linea in tutti questi cambiamenti: il membro del gruppo di lavoro del WC3 [Lea Verou](https://lea.verou.me/) che ha selezionato le domande del sondaggio di quest'anno, con particolare attenzione all'evidenziazione di nuove e future caratteristiche CSS.
+
+          Inoltre, i risultati del sondaggio aiuteranno anche i fornitori di browser a dare delle priorità alle loro roadmap e a lavorare per una migliore compatibilità tra browser.
+
+          Senza considerare niente di questo, vediamo come si è evoluto il CSS nel 2022!
