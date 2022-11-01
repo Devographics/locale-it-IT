@@ -1,8 +1,8 @@
 locale: it-IT
 translations:
- ###########################################################################
+  ###########################################################################
   # General
- ###########################################################################
+  ###########################################################################
 
   - key: results.start
     t: Inizio
@@ -391,17 +391,16 @@ translations:
   # Features
   ###########################################################################
 
-    - key: features.learn_more
-      t: Saperne di più (MDN)
+  - key: features.learn_more
+    t: Saperne di più (MDN)
 
-    - key: features.mdn_link
-      t: MDN
+  - key: features.mdn_link
+    t: MDN
+  - key: features.caniuse_link
+    t: CanIUse
 
-    - key: features.caniuse_link
-      t: CanIUse
-
-    - key: features.specification_link
-      t: Specifiche W3C
+  - key: features.specification_link
+    t: Specifiche W3C
 
   # knowledge score
   - key: features.knowledge_score
@@ -414,21 +413,21 @@ translations:
   # Tools & Methodologies
   ###########################################################################
 
-    # general
-    - key: tools.links
-      t: Collegamenti
+  # general
+  - key: tools.links
+    t: Collegamenti
 
-    - key: tools.github_link
-      t: GitHub
+  - key: tools.github_link
+    t: GitHub
 
-    - key: tools.github_stars
-      t: Stelle
+  - key: tools.github_stars
+    t: Stelle
 
-    - key: tools.homepage_link
-      t: Homepage
+  - key: tools.homepage_link
+    t: Homepage
 
-    - key: tools.npm_link
-      t: NPM
+  - key: tools.npm_link
+    t: NPM
 
   - key: tools.technology
     t: Tecnologia
