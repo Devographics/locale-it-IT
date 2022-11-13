@@ -44,7 +44,7 @@ translations:
     - key: general.preview_survey
       t: Anteprima Sondaggio »
     - key: general.finish_survey
-      t: Finisci Sondaggio »
+      t: Finisci Sondaggio
     - key: general.survey_closed
       t: Questo sondaggio è ora chiuso.
     - key: general.survey_results
