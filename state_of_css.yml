@@ -212,7 +212,7 @@ translations:
     t: Fonts Variabili
   - key: features.line_breaking
     t: Interruttori di linea
-  - key: features.line_breaking
+  - key: features.line_breaking.description
     t: overflow-wrap, word-break, line-break, hyphens
   - key: features.font_variant
     t: Font-variant-*
