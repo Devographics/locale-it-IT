@@ -593,7 +593,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blog & Riviste
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Quali blog/riviste/ecc. leggi?
   - key: resources.blogs_news_magazines.others
     t: Altri Blog & Riviste
@@ -603,7 +603,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Siti & Corsi
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Quali siti/corsi/ecc. consulti?
   - key: resources.sites_courses.others
     t: Sltri Siti & Corsi
@@ -613,7 +613,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcast
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Quali podcast riguardanti la programmazione ascolti?
   - key: resources.podcasts.others
     t: Altri Podcast
