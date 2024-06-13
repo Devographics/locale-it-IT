@@ -543,7 +543,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Editor di Testo
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Quale/i editor di testo usi regolarmente?
   - key: tools_others.text_editors.others
     t: Altri Editor di Testo
@@ -552,7 +552,7 @@ translations:
 
   - key: tools_others.utilities
     t: Utilità
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Quali librerie usi regolarmente?
   - key: tools_others.utilities.others
     t: Altre Utilità
@@ -561,7 +561,7 @@ translations:
 
   - key: tools_others.browsers
     t: Browser
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Su quale/i browser lavori principalmente durante lo sviluppo iniziale?
   - key: tools_others.browsers.others
     t: Altri Browser
@@ -570,7 +570,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Strumenti di Costruzione
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Quali strumenti di contruzione usi?
   - key: tools_others.build_tools.others
     t: Altri strumenti di costruzione
@@ -579,7 +579,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Linguaggi Non-JavaScript
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Quali altri linguaggi di programmazione usi?
   - key: tools_others.non_js_languages.others
     t: Altri Linguaggi
