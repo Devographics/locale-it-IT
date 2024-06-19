@@ -74,14 +74,14 @@ translations:
   # Block
   ###########################################################################
 
-  - key: block.data_from 
+  - key: block.data_from
     t: foo
 
   ###########################################################################
   # Options
   ###########################################################################
 
-  - key: options.experience_ranking.satisfaction 
+  - key: options.experience_ranking.satisfaction
     t: Retention
 
   - key: options.experience_ranking.interest
@@ -102,7 +102,7 @@ translations:
   - key: options.features_mode.usage_rank
     t: Per utilizzo
 
-  - key: options.features_mode.usage_ratio_rank 
+  - key: options.features_mode.usage_ratio_rank
     t: Per rapporto
 
   - key: options.features_simplified.know_it
@@ -111,7 +111,7 @@ translations:
   - key: options.features_simplified.used_it
     t: L'ho usato
 
-  - key: options.features_simplified.usage_ratio 
+  - key: options.features_simplified.usage_ratio
     t: Rapporto
 
   - key: options.quadrant.assess
@@ -169,7 +169,7 @@ translations:
   - key: options.quadrant.4.long
     t: |
       4: Alto utilizzo, bassa soddisfazione.Rivaluta queste tecnologie se le stai attualmente utilizzando.
-      
+
   - key: ranges.selector.years_of_experience
     t: Esperienza
 
@@ -188,7 +188,7 @@ translations:
 
   - key: options.first_steps.view_source
     t: Vedi la fonte
-  
+
   # other disablities
   - key: options.disability_status_others.adhd
     t: ADHD
@@ -225,7 +225,7 @@ translations:
 
   - key: options.disability_status_others.carpal_tunnel
     t: Tunnel carpale
-    
+
   ###########################################################################
   # Sections
   ###########################################################################
@@ -263,10 +263,10 @@ translations:
       il progetto sostenibile siamo sempre alla ricerca di partner che possano aiutarci a sostenerci,
       sia finanziariamente o aiutandoci a spargere la voce.
       Se pensi di proter aiutare in qualche modo, non esitare a [metterti in contatto](mailto:hello@stateofjs.com)!
-  
+
   - key: sections.awards.title
     t: Premi
-  
+
   - key: sections.awards.description
     t: Cose che si sono distinte quest'anno.
 
@@ -283,7 +283,7 @@ translations:
   - key: user_info.locale.note
     t: >
       Questi dati vengono raccolti automaticamente in base alle impostazioni dei partecipanti durante il sondaggio;
-      Le lingue con meno di 20 partecipanti non sono mostrate. 
+      Le lingue con meno di 20 partecipanti non sono mostrate.
 
   - key: user_info.source
     t: Fonte
@@ -474,9 +474,9 @@ translations:
 
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        Per ciascuna sezione, quale percentuale di partecipanti **utilizza**
-        (definito come aver risposto “utilizzerei ancora”) una, due, tre, ecc. tecnologie.
-        La barra più in basso rappresenta la somma di tutte le altre barre.
+      Per ciascuna sezione, quale percentuale di partecipanti **utilizza**
+      (definito come aver risposto “utilizzerei ancora”) una, due, tre, ecc. tecnologie.
+      La barra più in basso rappresenta la somma di tutte le altre barre.
 
   - key: blocks.cardinality.max
     t: Risposta più comune
@@ -539,7 +539,7 @@ translations:
   - key: blocks.tools_tier_list
     t: Elenco dei livelli della libreria
 
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       Questo grafico classifica le librerie in base al loro rapporto di conservazione (percentuale di utenti
       chi userebbe di nuovo una libreria). Si noti che le librerie utilizzate da meno del 10% 
@@ -548,7 +548,7 @@ translations:
   - key: blocks.tools_tier_list.bounds
     t: >
       {lowerBound}% - {upperBound}%
-      
+
   # tools section streams
   - key: blocks.tools_section_streams
     t: Esperienza nel tempo
@@ -637,7 +637,7 @@ translations:
     t: Ottieni dati JSON
 
   - key: export.export_graphql
-    t: Ottieni Query GraphQL 
+    t: Ottieni Query GraphQL
 
   - key: custom_data.heading
     t: Grafico personalizzato
@@ -665,10 +665,10 @@ translations:
 
   - key: custom_data.details
     t: >
-        1. Copiare il contenuto del campo di testo "Query GraphQL" e incollarlo nel pannello centrale di [GraphQL API explorer](https://graphiql.stateofjs.com/).
-        2. Modifica la query aggiungendo uno o più **filtri** utilizzando la barra laterale di sinistra di Explorer. Assicurati di mantenere la stessa struttura generale dei dati.
-        3. Nella finestra di esplorazione, fare clic sul pulsante Riproduci ("Esegui query").
-        4. Copia i risultati della query modificata (`{ data: … }` ) nel campo di testo "Dati personalizzati" sopra e invia.
+      1. Copiare il contenuto del campo di testo "Query GraphQL" e incollarlo nel pannello centrale di [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      2. Modifica la query aggiungendo uno o più **filtri** utilizzando la barra laterale di sinistra di Explorer. Assicurati di mantenere la stessa struttura generale dei dati.
+      3. Nella finestra di esplorazione, fare clic sul pulsante Riproduci ("Esegui query").
+      4. Copia i risultati della query modificata (`{ data: … }` ) nel campo di testo "Dati personalizzati" sopra e invia.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -739,7 +739,7 @@ translations:
     t: Tutti i partecipanti
 
   - key: charts.facet_responses
-    t: '{count} risposte'
+    t: "{count} risposte"
 
   - key: charts.axis_legends.years_of_experience
     t: Anni di esperienza
@@ -751,7 +751,7 @@ translations:
     t: Numero di dipendenti
 
   - key: charts.axis_legends.backend_proficiency
-    t: Competenza Back-end 
+    t: Competenza Back-end
 
   - key: charts.axis_legends.css_proficiency
     t: Competenza CSS
@@ -788,7 +788,7 @@ translations:
 
   - key: chart_units.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-    
+
   - key: charts.axis_legends.happiness
     t: Felicità
 
@@ -829,7 +829,7 @@ translations:
     t: Ho usato
 
   - key: charts.tools_arrows.x_axis
-    t: serie asse X 
+    t: serie asse X
 
   - key: charts.tools_arrows.y_axis
     t: serie asse Y
@@ -954,7 +954,6 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-
 
   - key: table.percentages_table
     t: Percentuali
@@ -1111,10 +1110,10 @@ translations:
     t: >
       Grazie per aver supportato il sondaggio. Il tuo avatar dovrebbe apparire accanto al grafico che hai scelto
       entro la prossima ora o giù di lì. In caso contrario, [contattaci](mailto:chartsponsor@stateofjs.com).
-    
+
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donato **${amount}** per sponsorizzare questo grafico
+      **{name}** donato **${amount}** per sponsorizzare questo grafico
 
   - key: sponsor.sponsor_button
     t: Sponsorizza questo grafico
@@ -1124,14 +1123,14 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Sostieni questo sondaggio finanziariamente donando $ 10 o più e ottieni il tuo
-        avatar di Twitter in primo piano accanto a un grafico!
+      Sostieni questo sondaggio finanziariamente donando $ 10 o più e ottieni il tuo
+      avatar di Twitter in primo piano accanto a un grafico!
 
   - key: sponsor.chart_id
-    t: 'Grafico ID: '
+    t: "Grafico ID: "
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+) 
+    t: Sponsor This Chart (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
     t: How It Works
