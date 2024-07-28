@@ -470,17 +470,17 @@ translations:
 
   - key: environments.form_factors
     t: Formati
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: Quali formati usi per i test?
 
   - key: environments.css_for_print
     t: CSS per Stampe
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: Scrivi stili per stampe?
 
   - key: environments.css_for_email
     t: CSS per Email
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: Scrivi CSS per email?
 
   ###########################################################################
