@@ -880,7 +880,7 @@ translations:
   - key: share.site.title
     t: Scopri i {siteTitle} risultati
   - key: share.site.twitter_text
-    t: "Scopri i {siteTitle} risultati {link} {hashtag}"
+    t: "Scopri i {siteTitle} risultati {link}"
   - key: share.site.subject
     t: "{siteTitle} Risultati del sondaggio"
   - key: share.site.body
